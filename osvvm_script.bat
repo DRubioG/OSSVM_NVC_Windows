@@ -1,8 +1,3 @@
-# OSSVM_NVC_Windows
-OSVVM NVC config script for Windows
-
-```bash
-
 @echo off
 
 nvc --work=osvvm --std=2019 -a .\osvvm_library\OsvvmScriptSettingsPkg.vhd
@@ -56,5 +51,3 @@ nvc --work=osvvm --std=2019 -a .\osvvm_library\DynamicVectorPkg_instances.vhd
 nvc --work=osvvm --std=2019 -a .\osvvm_library\MessagePkg.vhd
 nvc --work=osvvm --std=2019 -a .\osvvm_library\OsvvmContext.vhd
 nvc --work=osvvm --std=2019 -a .\osvvm_library\OsvvmTestCommonPkg_default.vhd
-
-```
